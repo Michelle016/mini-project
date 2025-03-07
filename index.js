@@ -34,7 +34,7 @@ const localPort = 5000;
 app.listen(renderPort || localPort, () => {
   if (renderPort)
     console.log(
-      `Server started at https://hostedwebsite.com \nPort: ${renderPort}`
+      `Server started at https://mini-project-49fd.onrender.com \nPort: ${renderPort}`
     );
   else console.log(`Server started at http://localhost:${localPort}/`);
 });
